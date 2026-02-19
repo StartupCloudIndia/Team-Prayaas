@@ -1,23 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Team Prayaas NGO</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: Arial; text-align: center; padding: 40px; }
-        h1 { color: #2c3e50; }
-        .btn { 
-            background: #27ae60; 
-            color: white; 
-            padding: 10px 20px; 
-            text-decoration: none; 
-            border-radius: 5px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Team Prayaas NGO</title>
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #2a8fbd; color: white; padding: 30px 20px; text-align: center; }
+    header h1 { font-size: 2.4rem; margin: 0; }
+    nav { text-align: center; background: #155d85; padding: 10px 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; }
+    .about, .impact, .activities { background: #f4f4f4; margin-bottom: 20px; }
+    .about img, .gallery img { width: 100%; max-width: 600px; border-radius: 8px; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .gallery img { width: calc(33% - 10px); }
+    .btn { background: #2a8fbd; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: inline-block; }
+    footer { background: #155d85; color: white; text-align: center; padding: 15px; }
+  </style>
 </head>
+
 <body>
-    <h1>Welcome to Team Prayaas</h1>
-    <p>Together we strive for a better tomorrow.</p>
-    <a class="btn" href="#">Donate Now</a>
+
+<header>
+  <h1>Team Prayaas</h1>
+  <p>Empathy. Empowerment. Change.</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#activities">Activities</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>Team Prayaas is a passionate student-led non-profit organization committed to empowering communities, inspiring kindness, and making a real difference through active social initiatives and volunteer action. Our mission is to uplift those in need and encourage collective action towards positive change. :contentReference[oaicite:1]{index=1}</p>
+  <img src="IMAGE_URL_HERE" alt="Team Prayaas activity photo">
+</section>
+
+<section id="activities" class="impact">
+  <h2>What We Do</h2>
+  <ul>
+    <li>Community empowerment drives</li>
+    <li>Donation & outreach programmes</li>
+    <li>Volunteer training & engagement</li>
+    <li>Support & uplift underprivileged families</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="IMAGE_URL_1" alt="Activity 1">
+    <img src="IMAGE_URL_2" alt="Activity 2">
+    <img src="IMAGE_URL_3" alt="Activity 3">
+    <img src="IMAGE_URL_4" alt="Activity 4">
+    <img src="IMAGE_URL_5" alt="Activity 5">
+    <img src="IMAGE_URL_6" alt="Activity 6">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <strong>teamprayaas@example.com</strong></p>
+  <p>Instagram: <a href="https://www.instagram.com/teamprayaas/?hl=en" target="_blank">@teamprayaas</a></p>
+  <a class="btn" href="#gallery">Support Us</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 Team Prayaas – Making a Difference Together</p>
+</footer>
+
 </body>
 </html>
